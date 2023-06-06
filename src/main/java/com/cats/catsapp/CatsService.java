@@ -105,4 +105,5 @@ public class CatsService {
         }
 
     }
+    public static void seeFavorite(){}
 }
