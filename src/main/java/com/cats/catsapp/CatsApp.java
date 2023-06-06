@@ -4,6 +4,7 @@
 
 package com.cats.catsapp;
 
+import java.io.IOException;
 import javax.swing.JOptionPane;
 
 /**
@@ -12,7 +13,7 @@ import javax.swing.JOptionPane;
  */
 public class CatsApp {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         int optionMenu = -1;
         String[] buttons = {"1. See cats", "2. Exit"};
         
